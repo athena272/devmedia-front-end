@@ -1,0 +1,23 @@
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #3f4df3;
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+}
+
+span { 
+    font-weight: bold;
+}
