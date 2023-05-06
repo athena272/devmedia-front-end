@@ -1,0 +1,21 @@
+h1 {
+    font-size: 22px;
+    font-family: Verdana;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #9c9c9c;
+}
+
+img {
+    width: 500px;
+    height: 375px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana;
+    width: 500px;
+}
