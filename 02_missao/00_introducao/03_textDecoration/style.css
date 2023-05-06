@@ -1,0 +1,20 @@
+h1 {
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+span {
+    font-weight: bolder;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+}
