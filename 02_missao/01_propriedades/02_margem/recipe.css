@@ -1,0 +1,25 @@
+div {
+    /* border: 1px solid red; */
+    width: 600px;
+    margin: 50px;
+}
+
+h1,
+h2 {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+img {
+    width: 280px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
