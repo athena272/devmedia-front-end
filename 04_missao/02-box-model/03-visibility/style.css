@@ -17,7 +17,6 @@
 
 .area {
     width: 100%;
-    margin: 0 0 50px 0;
 }
 
 img {
@@ -25,8 +24,8 @@ img {
 }
 
 #sobre img {
-    margin: 20px 10px;
     width: calc(100% - 20px);
+    padding: 20px 10px;
 }
 
 .area h2,
