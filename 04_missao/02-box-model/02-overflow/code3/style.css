@@ -39,7 +39,9 @@ body {
 
 }
 
-.apresentacao img, .area p, .area-tres-imagens {
+.apresentacao img,
+.area p,
+.area-tres-imagens {
     width: 100%;
 }
 
@@ -52,6 +54,3 @@ body {
     width: calc((100% / 3) - 3px);
     margin: 0 1.5px;
 }
-
-
-
