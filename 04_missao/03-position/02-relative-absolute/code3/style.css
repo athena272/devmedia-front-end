@@ -1,0 +1,15 @@
+div {
+    position: relative;
+}
+
+p {
+    width: 430px;
+    font-family: cursive;
+    font-size: 34px;
+    text-align: center;
+    color: #000000ad;
+    margin: 0;
+    position: absolute;
+    top: 140px;
+    left: 157px;
+}
