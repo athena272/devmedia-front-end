@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #a80000;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.div_fixa {
+    position: fixed;
+    right: 100px;
+    bottom: 35px;
+    border: 1px solid green;
+
+}
