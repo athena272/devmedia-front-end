@@ -8,7 +8,6 @@
 }
 
 .quarto-informacoes {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
