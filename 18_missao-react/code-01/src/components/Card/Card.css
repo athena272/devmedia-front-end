@@ -1,0 +1,25 @@
+.card {
+    max-width: 350px;
+    border: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-inline: auto;
+}
+
+
+
+.card-container {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background-clip: padding-box;
+    border-radius: 45px;
+    padding: 40px;
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .card:first-child {
+        margin-top: 30px;
+    }
+}
