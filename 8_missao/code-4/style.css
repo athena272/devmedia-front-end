@@ -5,7 +5,7 @@
 
 html,
 body {
-    height: calc(100% - 85px);
+    height: 100%;
 }
 
 header {
@@ -13,60 +13,10 @@ header {
     height: 55px;
     padding: 20px;
     box-sizing: border-box;
-    background: #7c008b;
+    background: #ff7321;
     color: #f8f8f8;
     font-family: sans-serif;
     font-size: 16px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 430px;
-    margin: 30px auto;
-    height: 100%;
-}
-
-h1 {
-    font-family: sans-serif;
-    color: #7c008b;
-}
-
-p {
-    margin: 20px 0 0 0;
-    line-height: 30px;
-    font-family: sans-serif;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-family: sans-serif;
-    padding: 16px 0;
-}
-
-.categoria .titulo-categoria {
-    padding: 20px 0;
-    display: flex;
-    font-family: sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.grupo-opcao {
-    margin-bottom: 6px;
-}
-
-button {
-    background: #7c008b;
-    border: none;
-    height: 32px;
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #fff;
-    margin: 16px 0 0 0;
 }
 
 footer {
@@ -79,5 +29,57 @@ footer {
     text-align: center;
     font-family: sans-serif;
     background: #f8f8f8;
-    color: #7c008b;
+    color: #ff7321;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 430px;
+    margin: 30px auto;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 16px 0;
+}
+
+.inputText {
+    height: 32px;
+    margin: 20px 0;
+    padding: 8px;
+}
+
+.titulo-categoria {
+    padding: 20px 0;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+button {
+    background: #ff7321;
+    border: none;
+    height: 32px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 16px 0 0 0;
+}
+
+p {
+    margin: 20px 0 0 0;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #ff7321;
 }
