@@ -1,12 +1,14 @@
+import './ContactSection.css';
+
 function ContactSection() {
     return (
-        <section id='contato'>
-            <div>
+        <section id='contato' className='secao-contato'>
+            <div className='limitar-secao'>
                 <h3>Fale conosco</h3>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
 
-                <div>
-                    <div>
+                <div className='contato-container'>
+                    <div className="contato-conteudo">
                         <h4>Contato</h4>
                         <div>
                             <img src="assets/local.png" title="Ícone local" alt="Pino de localização" />
@@ -21,7 +23,7 @@ function ContactSection() {
                             <span>contato@oticavida.com</span>
                         </div>
                     </div>
-                    <div>
+                    <div className="contato-conteudo">
                         <h4>Nossas Redes Sociais</h4>
                         <div>
                             <img src="assets/fb.png" title="Ícone facebook" alt="logo do facebook" />

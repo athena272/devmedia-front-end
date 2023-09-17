@@ -1,27 +1,29 @@
+import './ProductSection.css';
+
 function ProductSection() {
     return (
-        <section id='produtos'>
-            <div>
+        <section id='produtos' className='secao-produtos'>
+            <div className='limitar-secao'>
                 <h3>Nossos produtos</h3>
                 <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>
                 <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado.</p>
-                <div>
-                    <div>
+                <div className='container-produtos'>
+                    <div className='box-produto'>
                         <h4>Óculos de grau</h4>
                         <img src='assets/oculos01.png' title='Óculos de grau' alt='4 óculos de grau de cores diferentes' />
                         <p>R$ 500,00</p>
                     </div>
-                    <div>
+                    <div className='box-produto'>
                         <h4>Óculos transition</h4>
                         <img src='assets/oculos02.png' title='Óculos de grau' alt='4 óculos de grau de cores diferentes' />
                         <p>R$ 750,00</p>
                     </div>
-                    <div>
+                    <div className='box-produto'>
                         <h4>Óculos de sol</h4>
                         <img src='assets/oculos03.png' title='Óculos de grau' alt='4 óculos de grau de cores diferentes' />
                         <p>R$ 700,00</p>
                     </div>
-                    <div>
+                    <div className='box-produto'>
                         <h4>Óculos infantil</h4>
                         <img src='assets/oculos04.png' title='Óculos de grau' alt='4 óculos de grau de cores diferentes' />
                         <p>R$ 500,00</p>
