@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import './HomePage.css';
 
 const HomePage = () => {
-    const [randomNumber, setRandomNumber] = useState(1);
+    const [randomNumber, setRandomNumber] = useState(0);
 
     function generateNumber() {
-        const newNumber = Math.floor(Math.random() * (100 - 1) + 1);
+        const newNumber = Math.floor(Math.random() * (100));
         setRandomNumber(newNumber);
     }
 
