@@ -7,9 +7,9 @@ const App = () => {
 
   const [updateColor, setUpdateColor] = useState(true);
 
-  function changeColor() {
-    setUpdateColor(!updateColor)
-  }
+  const changeColor = () => setUpdateColor(!updateColor);
+
+  console.log(updateColor);
 
   return (
     <div className="display">
