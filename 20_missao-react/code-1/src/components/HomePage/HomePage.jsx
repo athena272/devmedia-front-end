@@ -5,7 +5,7 @@ const HomePage = () => {
     const [randomNumber, setRandomNumber] = useState(0);
 
     function generateNumber() {
-        const newNumber = Math.floor(Math.random() * (100));
+        const newNumber = Math.floor(Math.random() * 101);
         setRandomNumber(newNumber);
     }
 
