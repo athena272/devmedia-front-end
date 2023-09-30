@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import './HomePage.css';
 
 const HomePage = () => {
-    const [randomNumber, setRandomNumber] = useState(0);
+    const num = Math.floor(Math.random() * 101)
+    const [randomNumber, setRandomNumber] = useState(num);
 
-    function generateNumber() {
-        const newNumber = Math.floor(Math.random() * 101);
-        setRandomNumber(newNumber);
-    }
+    const sumFunction = () => {
+        setRandomNumber(randomNumber + 1);
+    };
+
+    const subFunction = () => {
+        setRandomNumber(randomNumber - 1);
+    };
 
     return (
         <div className="conteudo-centralizado">
@@ -19,8 +23,12 @@ const HomePage = () => {
                     Click no botão abaixo para gerar um número aleatório:
                 </label>
 
-                <button onClick={generateNumber}>
-                    Gerar número
+                <button onClick={sumFunction}>
+                    ++
+                </button>
+
+                <button onClick={subFunction}>
+                    --
                 </button>
             </div>
         </div>
