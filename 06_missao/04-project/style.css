@@ -201,3 +201,11 @@ td {
     font-size: 18px;
     color: #fff;
 }
+
+/* Estilo adicional para dispositivos menores */
+@media screen and (max-width: 828px) {
+    .secao-tabela {
+        display: block;
+        overflow-x: auto;
+    }
+}
