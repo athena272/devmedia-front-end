@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import DogImage from '/public/assets/cachorro.jpg';
-import CatImage from '/public/assets/gato.jpg';
+import DogImage from '/assets/cachorro.jpg';
+import CatImage from '/assets/gato.jpg';
 
 const AnimalCard = ({ animalType }) => (
     <div id="card">
