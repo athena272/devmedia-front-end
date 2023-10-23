@@ -2,9 +2,9 @@ import './GameItem.css';
 import xboxLogo from '/assets/xbox.png';
 import playstationLogo from '/assets/playstation.jpg';
 import nintendoLogo from '/assets/nintendo.jpg';
+import PropTypes from 'prop-types';
 
-const GameItem = ({ name, plataform }) => {
-
+const GameItem = ({ name, plataform }) => (
     <div className="card">
         <div>
             <img
@@ -16,6 +16,12 @@ const GameItem = ({ name, plataform }) => {
             <p>{name}</p>
         </div>
     </div>
+)
+
+GameItem.propTypes = {
+    name: PropTypes.string,
+    plataform: PropTypes.string
 }
+
 
 export default GameItem;
