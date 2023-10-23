@@ -1,6 +1,6 @@
-import './GameList.css';
-import lupa from '/assets/lupa.png';
-import GameItem from '../GameItem/GameItem';
+import "./GameList.css";
+import Lupa from "/assets/lupa.png";
+import GameItem from "../GameItem/GameItem";
 import { useState } from "react";
 import { filtrarJogo, buscarJogo, retornarJogos } from "../../service";
 
@@ -39,7 +39,7 @@ const GameList = () => {
                 <button onClick={() => handleLimparFiltro()}>Limpar Filtro</button>
             </div>
             <div className="container-input">
-                <img src={lupa} alt="ícone" />
+                <img src={Lupa} alt="ícone" />
                 <input
                     type="text"
                     value={textoBusca}
@@ -51,13 +51,12 @@ const GameList = () => {
                 {listaJogos.map((jogo) => (
                     <GameItem
                         key={jogo.id}
-                        nome={jogo.nome}
-                        plataforma={jogo.plataforma}
+                        name={jogo.nome}
+                        plataform={jogo.plataforma}
                     />
                 ))}
             </div>
         </div>
     );
-}
-
+};
 export default GameList;
