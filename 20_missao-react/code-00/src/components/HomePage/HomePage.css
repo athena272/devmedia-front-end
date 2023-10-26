@@ -19,6 +19,12 @@
     text-align: center;
 }
 
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
 button {
     margin-top: 20px;
     color: #FFFFFF;
