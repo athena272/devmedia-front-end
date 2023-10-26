@@ -15,3 +15,14 @@ export const buscarJogo = (textoDigitado) => {
 export const filtrarJogo = (plataforma) => {
   return jogosExclusivos.filter((jogo) => jogo.plataforma === plataforma);
 };
+
+{/* <h1>Lista de Alunos</h1>
+<ul>
+  {alunos.map((aluno) => (
+  <li key={aluno.matricula}>
+    {aluno.nome}
+    <button onClick={abrirInformacaoAluno(aluno)}>+</button>
+  </li>
+  ))}
+</ul>
+{mostrarComponente && <InformacaoAluno aluno={alunoSelecionado} fecharInformacaoAluno={fecharInformacaoAluno} />} */}
