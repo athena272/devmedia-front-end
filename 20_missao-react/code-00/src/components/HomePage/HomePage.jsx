@@ -9,7 +9,7 @@ const HomePage = () => {
 
     const sumFunction = () => setRandomNumber(randomNumber + 1)
 
-    const subFunction = () => setRandomNumber(randomNumber - 1)
+    const subFunction = () => randomNumber > 0 && setRandomNumber(randomNumber - 1)  
 
     return (
         <div className="conteudo-centralizado">
