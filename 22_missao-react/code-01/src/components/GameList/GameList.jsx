@@ -55,7 +55,7 @@ const GameList = () => {
                         plataform={jogo.plataforma}
                     />
                 ))}
-               </div>
+            </div>
         </div>
     );
 };
