@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      titulo: 'Meu Título Inicial', // Defina o título inicial aqui
+      titulo: 'Hello World', // Defina o título inicial aqui
     };
   },
 };
