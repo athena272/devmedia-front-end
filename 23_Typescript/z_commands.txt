@@ -1,0 +1,8 @@
+npm install -g typescript
+Comando para instalar o compilador do typescript (tsc) via NPM (Node Package Manager).
+
+tsc -v
+Comando para verificar a versão instalada do tsc (compilador do TypeScript).
+
+tsc app.ts
+Comando para compilar um arquivo TypeScript (.ts), gerando assim o seu equivalente em JavaScript (.js).
