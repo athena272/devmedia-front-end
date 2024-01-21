@@ -16,6 +16,7 @@ function App() {
     <div>
       <h2>Transformar Frase em Senha</h2>
       <input
+        style={{ padding: 12 }}
         type="text"
         onChange={(event) => handleConverterFrase(event.target.value)}
         placeholder="Digite a frase"
