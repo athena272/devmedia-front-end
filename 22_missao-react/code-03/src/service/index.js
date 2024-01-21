@@ -1,5 +1,5 @@
 export const converterCaracteres = (frase) => {
-    const palavras = frase.split(" ");
+    const palavras = frase.split("");
     let senha = '';
 
     palavras.forEach(palavra => {
